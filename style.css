@@ -5,7 +5,7 @@
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    border-bottom: 2px solid rgb(122, 167, 182);
+    border-bottom: 1px solid #5A67DD;
     height: 3.5rem;
     align-items: center;
 }
@@ -21,8 +21,8 @@
 }
 .top_link{
    border-radius: 50px;
-   border: solid rgb(155, 104, 202);
-   background-color: rgb(155, 104, 202);
+   border: solid #5A67DD;
+   background-color: #5A67DD;
    padding: 0.5rem;
 }
 
@@ -37,7 +37,26 @@
     width: 100px;
 }
 .textmain{
-   
     width:400px;
     height:400px 
 }
+h1{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    width : 600px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    border-bottom: #5A67DD solid 2px;
+    margin: 0 400px;
+}
+
