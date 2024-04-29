@@ -17,13 +17,25 @@
     text-decoration: none;
     color: black;
     margin-left: 2rem;
-    
+    padding: 5px;
+    border-radius: 40px;
+    transition: 500ms, 500ms;
+}
+.link_bar:hover{
+    color: white;
+    background-color: #5A67DD;
 }
 .top_link{
    border-radius: 50px;
    border: solid #5A67DD;
    background-color: #5A67DD;
    padding: 0.5rem;
+   transition: 500ms, 500ms;
+}
+.top_link:hover{
+    color: #5A67DD;
+    background-color: white;
+    border: #5A67DD solid;
 }
 
 /*---------------------MAIN------------------*/
@@ -58,5 +70,27 @@ p{
     height: 10px;
     border-bottom: #5A67DD solid 2px;
     margin: 0 400px;
+}
+.scrolling_circle{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+}
+
+.border_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+    height: 75px;
+    width: 75px;
+    border-radius: 55px;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: #5A67DD;
 }
 
